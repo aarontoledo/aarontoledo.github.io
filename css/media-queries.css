@@ -82,6 +82,12 @@
         height: auto;  
     }  
 
+    nav li {  
+        display: block;  
+        float: none;  
+        width: 100%;  
+    }  
+
     nav a#pull {  
         display: block;  
         background-color: #283744;  
@@ -91,23 +97,21 @@
 
     nav a#pull:after {  
         content:"";  
-        background: url('nav-icon.png') no-repeat;  
+        /*background: url('nav-icon.png') no-repeat;  */
         width: 30px;  
         height: 30px;  
         display: inline-block;  
         position: absolute;  
         rightright: 15px;  
         top: 10px;  
-    } 
+    }  
 
+    h1.logo_title {
+        text-align: left;
+    }
 }
 
 @media only screen and (max-width : 320px) {  
-    nav li {  
-        display: block;  
-        float: none;  
-        width: 100%;  
-    }  
     nav li a {  
         border-bottom: 1px solid #576979;  
     }  
