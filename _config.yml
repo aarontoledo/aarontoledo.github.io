@@ -1,4 +1,5 @@
 name: Digital Analytics
 markdown: redcarpet
 pygments: true
+paginate: 1
 destination: _deploy
