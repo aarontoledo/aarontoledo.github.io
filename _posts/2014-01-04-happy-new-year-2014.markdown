@@ -1,14 +1,35 @@
 ---
 layout: post
 title:  "Happy New Year 2014!"
-date:   2014-01-04 15:13:00
+date:   2014-01-04 00:00:00
 categories: general
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Just like everyone else, I've made a couple resolutions that I'd like to meet in 2014. There is some crossover between a couple of them, so I thought it would make sense to combine my efforts and kill multiple birds with one stone:
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+1. Start blogging
+2. Use GitHub more frequently
+3. Start using Markdown for documentation
+4. Create a site with responsive design
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+These seemed pretty straight forward, so here's how I started tackling them.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+### Start Blogging
+
+This isn't my first attempt at blogging. Over the years, I've tried some of the major blogging platforms such as Blogger, WordPress, and MovableType. I just wasn't a fan of managing my blog with an out-of-the-box UI, managing a database, tweaking their blog templates, etc. I wanted more freedom to build what I wanted from the ground up (even though I'd be have to learn everything along the way). While searching around for alternate platforms, I discovered [Jekyll](http://www.jekyllrb.com/) and was immediately attracted to the fact that it used plain text Markdown files as a way to create dynamic websites. After a little more reading, I also discovered that I could use [GitHub pages](http://pages.github.com/) to host my blog since I already had a paid GitHub account.
+
+#### So what is Jekyll?
+
+Jekyll allows you to transform plain text files (such as Markdown and Textile) into HTML and CSS using the [Liquid templating engine](http://docs.shopify.com/themes/liquid-basics/). It requires Ruby and RubyGems (both of which I have little experience with) and runs on Linux, Unix, or OSX. Since I'd be developing everything on my Macbook Pro (running Mavericks), everything seemed like a perfect match. I was actually able to get everything up and running on my local machine and then published onto GitHub in half a day...not bad if you ask me!
+
+### Use GitHub
+
+I'm not new to Git, but I know I need to learn to use it more effectively. While I didn't have any public repositories, I do have several private repositories that I contribute to. I'm not an expert at using Git through the command-line but I'm familiar with the official GitHub app for OSX. Since I'd be publishing my content to GitHub pages, I'd basically be forcing myself to learn more of the Git commands. Since I don't have any collaborators on this blog, I probably won't have to deal with merge, diff, and the other similar commands but I can live with that for now.
+
+### Markdown
+
+In progress.
+
+### Responsive Design
+
+In progress.
