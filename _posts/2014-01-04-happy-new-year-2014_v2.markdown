@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Happy New Year 2014!"
+date:   2014-01-04 15:13:00
+categories: general
+---
+
+This is a test post version 2.
