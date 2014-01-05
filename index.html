@@ -19,9 +19,9 @@ description: Some description here
 	<div class="pagination">
 	  {% if paginator.previous_page%}
 	  	{% if previous_page_path == nil%}
-	    	<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/'|  replace: 'index.html', '' }}">&laquo; Prev</a>
+	    	<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' | replace: 'index.html', '' }}">&laquo; Prev</a>
 	    {% else %}
-	    	<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}/">&laquo; Prev</a>
+	    	<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' | replace: 'index.html', '' }}/">&laquo; Prev</a>
 	  	{% endif %}  	
 	  {% else %}
 	    <span>&laquo; Prev</span>
@@ -31,14 +31,14 @@ description: Some description here
 	    {% if page == paginator.page %}
 	      <em>{{ page }}</em>
 	    {% elsif page == 1 %}
-	      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+	      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' | replace: 'index.html', '' }}">{{ page }}</a>
 	    {% else %}
-	      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}/">{{ page }}</a>
+	      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page | replace: 'index.html', '' }}/">{{ page }}</a>
 	    {% endif %}
 	  {% endfor %}
 
 	  {% if paginator.next_page %}
-	    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}/">Next &raquo;</a>
+	    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' | replace: 'index.html', '' }}/">Next &raquo;</a>
 	  {% else %}
 	    <span>Next &raquo;</span>
 	  {% endif %}
