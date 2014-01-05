@@ -3,3 +3,4 @@ markdown: redcarpet
 pygments: true
 paginate: 1
 destination: _deploy
+paginate_path: "blog/page:num/"
