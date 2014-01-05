@@ -1,0 +1,113 @@
+@media screen and (max-width: 980px) {
+
+	#site {
+		width: 95%;
+	}
+
+	#main {
+		width: 70%;
+	}
+
+	#navbar {
+		width: 30%;
+	}
+
+}
+
+@media screen and (max-width: 650px) {
+
+	#header {
+	    height: auto;
+	}
+
+	#navbar {
+	    width: 100%;
+	    float: none;
+	}
+
+	#main {
+	    width: auto;
+	    float: none;
+	}
+
+	#footer {
+	    height: auto;
+	}
+
+    nav {   
+        height: auto;  
+    }  
+
+    nav ul {  
+        width: 100%;  
+        display: block;  
+        height: auto;  
+    }  
+
+    nav li {  
+        width: 50%;  
+        float: left;  
+        position: relative;  
+    }  
+
+    nav li a {  
+        border-bottom: 1px solid #576979;  
+        border-right: 1px solid #576979;  
+    }  
+
+    nav a {  
+        text-align: left;  
+        width: 100%;  
+        text-indent: 25px;  
+    }  
+}
+
+@media screen and (max-width: 480px) {
+
+	html {
+		-webkit-text-size-adjust: none;
+	}
+
+	#main-nav a {
+		font-size: 90%;
+		padding: 10px 8px;
+	}
+
+	nav {  
+        border-bottom: 0;  
+    } 
+
+    nav ul {  
+        display: none;  
+        height: auto;  
+    }  
+
+    nav a#pull {  
+        display: block;  
+        background-color: #283744;  
+        width: 100%;  
+        position: relative;  
+    }  
+
+    nav a#pull:after {  
+        content:"";  
+        background: url('nav-icon.png') no-repeat;  
+        width: 30px;  
+        height: 30px;  
+        display: inline-block;  
+        position: absolute;  
+        rightright: 15px;  
+        top: 10px;  
+    }  
+}
+
+@media only screen and (max-width : 320px) {  
+    nav li {  
+        display: block;  
+        float: none;  
+        width: 100%;  
+    }  
+    nav li a {  
+        border-bottom: 1px solid #576979;  
+    }  
+}  

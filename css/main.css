@@ -13,8 +13,9 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
+  background-color: #CFCFCF;
   font: 13.34px Helvetica, Arial, sans-serif;
+  color: #555555
   font-size: small;
   text-align: center;
 }
@@ -29,11 +30,99 @@ a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
 
+
+/*****************************************************************************/
+/*
+/* Layout
+/*
+/*****************************************************************************/
+#site {
+    background: #FFF;
+    width: 980px;
+    margin: 0 auto;
+}
+
+#header {
+    background: blue;
+}
+#navbar {
+    width: 280px;
+    float: right;
+}
+
+#main {
+    width: 700px;
+    float: left;
+}
+
+#footer {
+    clear: both;
+}
+
+/*****************************************************************************/
+/*
+/* Main Nav
+/*
+/*****************************************************************************/
+nav {  
+    height: 40px;  
+    width: 100%;  
+    background: #455868;  
+    font-size: 11pt;  
+    font-family: 'PT Sans', Arial, sans-serif;  
+    font-weight: bold;  
+    position: relative;  
+    border-bottom: 2px solid #283744;  
+}  
+nav ul {  
+    padding: 0;  
+    margin: 0 auto;  
+    width: 600px;  
+    height: 40px;  
+} 
+nav li {  
+    display: inline;  
+    float: left;  
+}
+nav a, nav a:visited {  
+    color: #fff;  
+    display: inline-block;  
+    width: 100px;  
+    text-align: center;  
+    text-decoration: none;  
+    line-height: 40px;  
+    text-shadow: 1px 1px 0px #283744;  
+}
+nav li a {  
+    border-right: 1px solid #576979;  
+    box-sizing:border-box;  
+    -moz-box-sizing:border-box;  
+    -webkit-box-sizing:border-box;  
+}  
+nav li:last-child a {  
+    border-right: 0;  
+}
+nav a:hover, nav a:active {  
+    background-color: #8c99a4;  
+}
+nav a#pull {  
+    display: none;  
+}         
+
 /*****************************************************************************/
 /*
 /* Home
 /*
 /*****************************************************************************/
+#home {
+  padding: 0 2em;
+}
+
+.post_home{
+  display: block;
+  border-bottom: 1px dotted #D3D3D3;
+}
+
 .posts {
   list-style-type: none;
   margin-bottom: 2em;
@@ -44,9 +133,7 @@ a:visited { color: #a0a; }
 }
 
 .posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
+  color: #555555;
 }
 
 /*****************************************************************************/
@@ -56,7 +143,7 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 
 .site {
-  font-size: 115%;
+  font-size: 100%;
   text-align: justify;
   width: 42em;
   margin: 3em auto 2em;
@@ -95,9 +182,9 @@ a:visited { color: #a0a; }
 }
 
 .footer {
-  font-size: 80%;
   color: #666;
   border-top: 4px solid #eee;
+  padding: 1em;
   margin-top: 2em;
   overflow: hidden;
 }

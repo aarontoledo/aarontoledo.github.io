@@ -1,4 +1,4 @@
-name: Aaron's Blog
+name: Digital Analytics
 markdown: redcarpet
 pygments: true
 destination: _deploy

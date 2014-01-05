@@ -12,13 +12,17 @@
     <![endif]-->
     <!-- Add your site or application content here -->      
     {% include analytics.html %}
-    <div class="site">
-        <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
+    <div class="site" id="site">
+        <div class="header" id="header">
+            {% include topnav.html %}
         </div>
-        {{ content }}
-        <div class="footer">
+        <div class="main" id="main">
+            {{ content }}
+        </div>
+        <div class="navbar" id="navbar">
+            {% include navbar.html %}
+        </div>        
+        <div class="footer" id="footer">
         {% include footer.html %}
         </div>
     </div>
