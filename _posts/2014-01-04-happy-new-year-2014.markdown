@@ -5,12 +5,7 @@ date:   2014-01-04 00:00:00
 categories: general
 ---
 
-Just like everyone else, I've made a couple resolutions that I'd like to meet in 2014. There is some crossover between a couple of them, so I thought it would make sense to combine my efforts and kill multiple birds with one stone:
-
-1. Start blogging
-2. Use GitHub more frequently
-3. Start using Markdown for documentation
-4. Create a site with responsive design
+Just like everyone else, I've made a couple resolutions that I'd like to meet in 2014. There is some crossover between a couple of them, so I thought it would make sense to combine my efforts and kill multiple birds with one stone: Start blogging, use GitHub more frequently, use Markdown where appropriate, and create a site with responsive design.
 
 These seemed pretty straight forward, so here's how I started tackling them.
 
