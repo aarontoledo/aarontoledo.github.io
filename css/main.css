@@ -18,11 +18,11 @@ body {
   font: 12px;
   color: #555555;
   font-size: small;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  font-size: 100%; margin: 0; padding: 0;}
 
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
@@ -69,6 +69,10 @@ h1.logo_title {
 .logo_title a:visited {
   text-decoration: none;
   color: #EB8540;
+}
+
+.logo_title .logo_title_desc {
+  font-weight: normal;
 }
 
 .logo_tag {
@@ -172,7 +176,7 @@ nav a#pull {
 
 .site {
   font-size: 100%;
-  text-align: justify;
+  /*text-align: justify;*/
   width: 42em;
   margin: 3em auto 2em;
   line-height: 1.5em;
@@ -208,7 +212,7 @@ nav a#pull {
 .meta {
   /*color: #aaa;*/
   padding-bottom: 1em;
-  border-bottom: 1px solid #D3D3D3;
+  border-bottom: 1px dotted #D3D3D3;
 }
 
 .footer {
