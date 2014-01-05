@@ -13,9 +13,10 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #CFCFCF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  color: #555555
+  background-color: #F7F6F3;
+  font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+  font: 12px;
+  color: #555555;
   font-size: small;
   text-align: center;
 }
@@ -26,9 +27,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a         { color: #EB8540; }
+a:hover   { text-decoration: underline; }
+a:visited { color: #EB8540; }
 
 
 /*****************************************************************************/
@@ -37,14 +38,38 @@ a:visited { color: #a0a; }
 /*
 /*****************************************************************************/
 #site {
-    background: #FFF;
+    background: #FDFCFB;
     width: 980px;
-    margin: 0 auto;
+    margin: 1em auto;
+    border: solid 1px #DEDDDB;
 }
 
 #header {
-    background: blue;
 }
+
+#logo {
+  padding: 2em;
+}
+
+.logo_title {
+  display: block;
+  font-size: 28px;
+}
+
+.logo_title a,
+.logo_title a:hover,
+.logo_title a:visited {
+  text-decoration: none;
+  color: #EB8540;
+}
+
+.logo_tag {
+  margin-top: 10px;
+  display: block;
+  font-size: 18px;
+  color: #AB988B;
+}
+
 #navbar {
     width: 280px;
     float: right;
@@ -64,20 +89,20 @@ a:visited { color: #a0a; }
 /*
 /*****************************************************************************/
 nav {  
-    height: 40px;  
+    height: 60px;  
     width: 100%;  
-    background: #455868;  
+    background: #475F77;  
     font-size: 11pt;  
     font-family: 'PT Sans', Arial, sans-serif;  
     font-weight: bold;  
     position: relative;  
-    border-bottom: 2px solid #283744;  
+    border-top: 5px solid #74A6BD;  
 }  
 nav ul {  
     padding: 0;
     margin: 0;  
     width: 600px;  
-    height: 40px;  
+    height: 60px;  
 } 
 nav li {  
     display: inline;  
@@ -89,7 +114,7 @@ nav a, nav a:visited {
     width: 120px;  
     text-align: center;  
     text-decoration: none;  
-    line-height: 40px;  
+    line-height: 60px;  
     text-shadow: 1px 1px 0px #283744;  
 }
 nav li a {  
@@ -127,7 +152,7 @@ nav a#pull {
 #navbar li {
   margin: 0;
   padding: 2px 0;
-  border-bottom: 1px dotted #DDD;
+  border-bottom: 1px dotted #DCDDD8;
 }
 
 /*****************************************************************************/
@@ -176,7 +201,6 @@ nav a#pull {
 }
 
 .footer {
-  color: #666;
   border-top: 4px solid #eee;
   padding: 1em;
   margin-top: 2em;
@@ -186,10 +210,6 @@ nav a#pull {
 .footer .contact {
   float: left;
   margin-right: 3em;
-}
-
-.footer .contact a {
-  color: #8085C1;
 }
 
 .footer .rss {
