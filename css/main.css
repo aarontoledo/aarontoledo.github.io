@@ -76,9 +76,10 @@ h1.logo_title {
 }
 
 .logo_tag {
+  font-style: italic;
   margin-top: 10px;
   display: block;
-  font-size: 1.15em;
+  font-size: 1.4em;
   color: #AB988B;
 }
 
