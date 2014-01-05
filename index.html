@@ -17,8 +17,12 @@ description: Some description here
 	<!-- Pagination links -->
 	{% if paginator.total_pages > 1 %}
 	<div class="pagination">
-	  {% if paginator.previous_page %}
-	    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}/">&laquo; Prev</a>
+	  {% if paginator.previous_page%}
+	  	{% if previous_page_path == nil%}
+	    	<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+	    {% else %}
+	    	<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}/">&laquo; Prev</a>
+	  	{% endif %}  	
 	  {% else %}
 	    <span>&laquo; Prev</span>
 	  {% endif %}

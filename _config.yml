@@ -1,6 +1,6 @@
 name: Digital Analytics
 markdown: redcarpet
 pygments: true
-paginate: 1
+paginate: 2
 destination: _deploy
 paginate_path: "blog/page:num"
