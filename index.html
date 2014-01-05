@@ -19,7 +19,7 @@ description: Some description here
 	<div class="pagination">
 	  {% if paginator.previous_page%}
 	  	{% if previous_page_path == nil%}
-	    	<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+	    	<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/'|  replace: 'index.html', '' }}">&laquo; Prev</a>
 	    {% else %}
 	    	<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}/">&laquo; Prev</a>
 	  	{% endif %}  	
