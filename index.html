@@ -18,7 +18,7 @@ description: Some description here
 	{% if paginator.total_pages > 1 %}
 	<div class="pagination">
 	  {% if paginator.previous_page %}
-	    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' | replace: '/index.html', '' }}/">&laquo; Prev</a>
+	    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' | replace: '/index.html', '' }}/">&laquo; Previous Page</a>
 	  {% else %}
 	    <span>&laquo; Previous Page</span>
 	  {% endif %}
