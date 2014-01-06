@@ -1,30 +1,48 @@
 ---
 layout: post
 title:  "Happy New Year 2014!"
-date:   2014-01-04 00:00:00
+date:   2014-01-05 00:00:00
 categories: general
 ---
 
-Just like everyone else, I've made a couple resolutions that I'd like to meet in 2014. There is some crossover between a couple of them, so I thought it would make sense to combine my efforts and kill multiple birds with one stone: Start blogging, use GitHub more frequently, use Markdown where appropriate, and create a site with responsive design.
+Just like everyone else, I've made a couple resolutions that I'd like to meet in 2014. There is some crossover between a couple of them, so I thought it would make sense to combine my efforts and start crossing some things off the list: re-kindle my blogging efforts, integrate GitHub into more of my projects, make a habbit of using Markdown when appropriate, and creating a site with responsive design. These seemed pretty straight forward, so here's how I started tackling them.
 
-These seemed pretty straight forward, so here's how I started tackling them.
+### Blogging
 
-### Start Blogging
-
-This isn't my first attempt at blogging. Over the years, I've tried some of the major blogging platforms such as Blogger, WordPress, and MovableType. I just wasn't a fan of managing my blog with an out-of-the-box UI, managing a database, tweaking their blog templates, etc. I wanted more freedom to build what I wanted from the ground up (even though I'd be have to learn everything along the way). While searching around for alternate platforms, I discovered [Jekyll](http://www.jekyllrb.com/) and was immediately attracted to the fact that it used plain text Markdown files as a way to create dynamic websites. After a little more reading, I also discovered that I could use [GitHub pages](http://pages.github.com/) to host my blog since I already had a paid GitHub account.
+This isn't my first attempt at blogging. Over the years, I've tried some of the major blogging platforms such as Blogger, WordPress, and MovableType. I just wasn't a fan of managing my blog with an out-of-the-box UI, maintaining a database, tweaking comlex blog templates, etc. I also don't consider myself a great writer, but that's a separate issue. What I wanted was a platform that wouldn't get in the way of itself...something that provided the basic functionality to manage a blog without all the technical bloat. While searching around for alternate platforms, I discovered [Jekyll](http://www.jekyllrb.com/) and was immediately attracted.
 
 #### So what is Jekyll?
 
-Jekyll allows you to transform plain text files (such as Markdown and Textile) into HTML and CSS using the [Liquid templating engine](http://docs.shopify.com/themes/liquid-basics/). It requires Ruby and RubyGems (both of which I have little experience with) and runs on Linux, Unix, or OSX. Since I'd be developing everything on my Macbook Pro (running Mavericks), everything seemed like a perfect match. I was actually able to get everything up and running on my local machine and then published onto GitHub in half a day...not bad if you ask me!
+Jekyll allows you to transform plain text files (such as Markdown and Textile) into HTML and CSS using the [Liquid templating engine](http://docs.shopify.com/themes/liquid-basics/). It requires Ruby and RubyGems (both of which I have little experience with) and runs on Linux, Unix, or OSX. What I liked about Jekyll was the fact that it used plain text Markdown files as a way to create dynamic websites. After a little more reading, I also discovered that I could use [GitHub pages](http://pages.github.com/) to host my blog since I already had a paid GitHub account. Since I'd be developing everything on my Macbook Pro (which is running Mavericks), everything seemed like a perfect match. I was actually able to get everything up and running on my local machine and then published onto GitHub in half a day...not bad if you ask me!
 
-### Use GitHub
+### Integrate GitHub
 
-I'm not new to Git, but I know I need to learn to use it more effectively. While I didn't have any public repositories, I do have several private repositories that I contribute to. I'm not an expert at using Git through the command-line but I'm familiar with the official GitHub app for OSX. Since I'd be publishing my content to GitHub pages, I'd basically be forcing myself to learn more of the Git commands. Since I don't have any collaborators on this blog, I probably won't have to deal with merge, diff, and the other similar commands but I can live with that for now.
+Since I already decided to move forward with Jekyll, it also made sense to take advantage of GitHub Pages to host my content. I'm not new to GitHub or Git, but I know I need to learn to use them more effectively. While I dont't currently have any public repositories, I do have several private repositories that I contribute to on a regular basis. I'm currently using the GitHub app for OSX but this project would give myself the opportunity to learn more of the Git commands and practice using them in the command-line . However, since I don't have any collaborators on this blog, I probably won't have to deal with merge, diff, and the other similar commands but I can live with that for now.
 
 ### Markdown
 
-In progress.
+The Jekyll directory structure defines that all posts go into the directory <code>_posts</code>. All posts in this directory are actually just Markdown files that contain YAML variables at the top of their content. They look something like this:
+
+<pre>
+---
+layout: post
+title:  "Happy New Year 2014!"
+date:   2014-01-05 00:00:00
+categories: general
+---
+
+Content goes here.
+</pre>
+
+I traditionally do all my code-related work in [SublimeText](http://www.sublimetext.com/) and then I use [Mou](http://mouapp.com/) to work with Markdown directly. However, since I'm jumping back and forth between HTML, CSS, and Markdown I just found it easier to keep my entire workflow within SublimeText for this project.
 
 ### Responsive Design
 
-In progress.
+The last piece of the puzzle was coming up with a simple layout that would be easy to deploy as a Jekyll template and then using [CSS3 media queries](http://www.htmlgoodies.com/html5/tutorials/an-introduction-to-css3-media-queries.html) to modify the presentation for different viewports. I started with the [HTML5 Boilerplate template](http://html5boilerplate.com/) and then integrated in the basic components from the Jeykll template what was created when I initiated the standard template using:
+
+<pre>
+~ $ gem install jekyll
+~ $ jekyll new _blog
+</pre>
+
+From that point, I modified the HTML layout and customized the CSS and JavaScript files.

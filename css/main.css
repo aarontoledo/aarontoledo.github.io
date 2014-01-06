@@ -50,6 +50,7 @@ img {
 }
 
 #header {
+  background: #DEDDDB;
 }
 
 #logo {
@@ -289,9 +290,9 @@ nav a#pull {
 }
 /* standard */
 .post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
+  border: 1px solid #DEDDDB;
+  background-color: #F7F6F3;
+  padding: .3em;
 }
 
 .post ul, .post ol {
@@ -299,9 +300,9 @@ nav a#pull {
 }
 
 .post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
+  border: 1px solid #DEDDDB;
+  background-color: #F7F6F3;
+  padding: .3em;
 }
 
 .post pre code {

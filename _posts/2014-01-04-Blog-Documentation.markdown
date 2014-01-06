@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Blog Documentation"
-date:   2014-01-05 00:00:00
+date:   2014-01-04 00:00:00
 categories: general
+
 ---
 
 This is a reference document...nothing to read here! This is a list of Markdown references that will be used in this blog.
