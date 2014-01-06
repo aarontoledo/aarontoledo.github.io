@@ -45,4 +45,4 @@ The last piece of the puzzle was coming up with a simple layout that would be ea
 ~ $ jekyll new _blog
 </pre>
 
-From that point, I modified the HTML layout and customized the CSS and JavaScript files.
+From that point, I modified the HTML layout, customized the CSS and JavaScript files, and updated the master branch on GitHub. I ended up testing everything locally using <code>~ $ jekyll serve --watch</code> which told my local server to watch my local folder for changes. And that's it!

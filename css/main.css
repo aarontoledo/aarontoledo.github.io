@@ -139,7 +139,7 @@ nav li a {
 nav li:last-child a {  
     /*border-right: 0;  */
 }
-nav a:hover, nav a:active {  
+nav a:hover, nav a:active, nav a.active {  
     /*background-color: #8c99a4;  */
     background-color: #EB8540;  
 }
